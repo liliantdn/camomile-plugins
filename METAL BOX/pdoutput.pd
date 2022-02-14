@@ -1,0 +1,14 @@
+#N canvas 854 443 657 479 10;
+#X obj 107 329 udpreceive~ 8008 2 512;
+#X obj 109 402 dac~;
+#X obj 178 379 env~;
+#X obj 422 207 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 422 228 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 0 256 0;
+#X connect 0 0 1 0;
+#X connect 0 1 1 1;
+#X connect 0 2 2 0;
+#X connect 2 0 3 0;
+#X connect 2 0 4 0;
+#X coords 0 -1 1 1 186 306 1 391 75;

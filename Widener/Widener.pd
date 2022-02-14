@@ -1,0 +1,28 @@
+#N canvas 228 350 748 481 10;
+#X obj 19 76 widener-engine;
+#X obj 19 21 adc~;
+#X obj 19 185 dac~;
+#X obj 226 138 hsl 128 15 0 5 0 0 delay-s delay-r delay -2 -8 0 10
+#fcfcfc #000000 #000000 0 1;
+#X obj 226 178 hsl 128 15 0 3 0 0 depth-s depth-r depth -2 -8 0 10
+#fcfcfc #000000 #000000 0 1;
+#X obj 409 103 param.get 1;
+#X obj 197 36 param.change;
+#X obj 226 218 hsl 128 15 0 1 0 0 mix-s mix-r mix -2 -8 0 10 #fcfcfc
+#000000 #000000 0 1;
+#X obj 409 153 param.get 2;
+#X obj 409 203 param.get 3;
+#X obj 524 203 param.set 3 mix-s;
+#X obj 524 153 param.set 2 depth-s;
+#X obj 524 103 param.set 1 delay-s;
+#X obj 409 125 send delay-r;
+#X obj 409 175 send depth-r;
+#X obj 409 225 send mix-r;
+#X connect 0 0 2 0;
+#X connect 0 1 2 1;
+#X connect 1 0 0 0;
+#X connect 1 1 0 1;
+#X connect 5 0 13 0;
+#X connect 8 0 14 0;
+#X connect 9 0 15 0;
+#X coords 0 -1 1 1 180 160 1 200 100;
