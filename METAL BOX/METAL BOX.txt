@@ -19,3 +19,4 @@ param -name Limiter -min 0 -max 1 -default 1 -nsteps 2;
 param -name Mix -min 0 -max 1 -default 0.7;
 param -name Distortion -min 0 -max 1 -default 0;
 param -name Mod Type -min 0 -max 2 -default 0 -nsteps 3;
+param -name Post Highpass -min 0 -max 1 -default 0;
