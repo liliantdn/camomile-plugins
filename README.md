@@ -7,7 +7,8 @@ Eventually I wanna rebuild these plugins outside of pd to have more control over
 Reverb plugin made up of four delays feeding into eachother. It is meant to create resonant, metallic sounds.
 
 [Download](https://github.com/liliantdn/camomile-plugins/releases/tag/METAL-BOX)
-\ **todo list:**
+
+**todo list:**
 - add pre/post highpass and lowpass (the only reason I haven't done this yet it because I wanna a find a way to do it without cluttering the ui).
 - find better names for some of the sliders?
 ### Widener
