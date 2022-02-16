@@ -11,6 +11,8 @@ Reverb plugin made up of four delays feeding into eachother. It is meant to crea
 **todo list:**
 - add pre/post highpass and lowpass (the only reason I haven't done this yet it because I wanna a find a way to do it without cluttering the ui).
 - find better names for some of the sliders?
+<br/>
+<br/>
 ### Widener
 Originally made this as a part of metal box, it's a "stereo widener" that uses two comb filters to make stuff stereo without messing up the mono too much
 
