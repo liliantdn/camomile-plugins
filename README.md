@@ -7,6 +7,7 @@ Eventually I wanna rebuild these plugins outside of pd to have more control over
 Reverb plugin made up of four delays feeding into eachother. It is meant to create resonant, metallic sounds.
 
 > **Todo:**
+>- Improve performance.
 >- Add pre/post highpass and lowpass (the only reason I haven't done this yet it because I wanna a find a way to do it without cluttering the ui).
 >- Find better names for some of the sliders?
 
